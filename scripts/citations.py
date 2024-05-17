@@ -24,10 +24,11 @@ def get_citation_links(session, profile_url):
     r = session.get(profile_url)
 
     links = r.html.absolute_links
-
+    print(len(links))
     assert len(links) > 0, "No paper cites, did we hit a captcha?"
-
-    paper_links = [link for link in links if "view_citation" in link]
+    # import pdb;pdb.set_trace()
+    # paper_links = [link for link in links if "view_citation" in link]
+    paper_links = [link for link in links]
 
     return paper_links
 
@@ -70,8 +71,9 @@ def get_paper_data(session, paper_url):
                 link_div = div
 
     table_list = table_text.split("\n")
-
+    # print(f'{table_list = }')
     if AUTHOR in table_list:
+        # print(AUTHOR)
         paper_dict[AUTHOR] = table_list[table_list.index(AUTHOR) + 1]
 
     if TITLE in table_list:
@@ -90,7 +92,7 @@ def get_paper_data(session, paper_url):
         paper_dict[URL] = link_div.absolute_links.pop()
     else:
         paper_dict[URL] = paper_url
-
+    # print(f'{paper_dict = }')
     return paper_dict
 
 
@@ -118,12 +120,12 @@ def print_markdown(paper_dict):
         ))
 
 if __name__ == "__main__":
-    konrad_profile_url = "https://scholar.google.com/citations?hl=en&user=MiFqJGcAAAAJ&view_op=list_works&sortby=pubdate"
+    konrad_profile_url = "https://scholar.google.com/citations?user=QiSauecAAAAJ&hl=en&oi=ao"
     session = HTMLSession()
     citation_links = get_citation_links(session, konrad_profile_url)
-
+    print(len(citation_links))
     paper_data = [get_paper_data(session, url) for url in citation_links]
-
+    # print(paper_data)
     # sort by recency, so reversed
     paper_data.sort(key=lambda x: x[PUB_DATE] if PUB_DATE in x else "", reverse=True)
     for paper in paper_data:

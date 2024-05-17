@@ -27,7 +27,7 @@ permalink: /people/
  {% elsif role == 'visiting' %}
 <h3>Visiting Scholars</h3>
  {% elsif role == 'others' %}
-<h3>Honorary Members</h3>
+<h3>Alumni Members</h3>
  {% elsif role == 'alumni' %}
 <h3>Alumni</h3>
 {% endif %}
@@ -58,11 +58,12 @@ permalink: /people/
 
 | Who are they | When were they here | Where they went |
 | :------------- |:-------------| :-----------|
-| [Xinyue Wang](https://www.charonwangg.com/) | Graduate Student (2021-2023) | PhD Student, Halıcıoğlu Data Science Institute, UCSD |
-| Ilenna Jones | Graduate Student (2017-2023) | 
-| Ben Baker | Post-doc (2021-2023) | 
-| Richard Lange | Post-doc (2021-2023) | |
-| Justin Brantley | Post-doc (2021-2023) | |
+| [Yutao Hu](https://scholar.google.com/citations?hl=en&user=4sXuGXAAAAAJ) | Graduate Student (2021-2023) | Postdoc, The University of Hong Kong |
+| Sen Li | Graduate Student (2017-2023) | 
+| Yalin Li | Graduate Student (2021-2023) | 美团 |
+| Peixin Gan | Graduate Student (2021-2023) | |
+| Chengxi Wu | Graduate Student (2020-2022) | 理想 |
+| Yang Yu | Graduate Student (2020-2022) | |
 | [Ari Benjamin](https://ari-benjamin.com/) | Graduate student (2016-2022) | Postdoc with Tony Zador at Cold Spring Harbor Laboratory |
 | [Titipat Achakulvisut](https://kordinglab.com/people/titipat_achakulvisut/.index.html) | Graduate Student (2014 - 2021) | [Biomedical and Data Lab](https://biodatlab.github.io/), Dept of Biomedical Engineering, Mahidol University, Thailand |
 | [Pedro Ribeiro](https://www.linkedin.com/in/pedro-ribeiro/) | Graduate Student (2018 - 2021) | Programmer Analyst at Cedars-Sinai Department of Computational Biomedicine|

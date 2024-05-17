@@ -1,0 +1,10 @@
+@article{yin2019hyperspectral,
+  title={Hyperspectral image classification using CapsNet with well-initialized shallow layers},
+  author={Yin, Jihao and Li, Sen and Zhu, Hongmei and Luo, Xiaoyan},
+  journal={IEEE Geoscience and Remote Sensing Letters},
+  volume={16},
+  number={7},
+  pages={1095--1099},
+  year={2019},
+  publisher={IEEE}
+}
