@@ -6,6 +6,8 @@
 name:               "多模信息感知与视觉导航实验室"
 title:              "Multimodal Information Perception and Visual Navigation Lab at the Beihang University"
 description:        "The Kording Lab is a computational neuroscience and causality research group at the University of Pennsylvania."
+#新建主题
+theme: minima
 
 
 # URL
