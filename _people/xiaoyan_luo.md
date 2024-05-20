@@ -1,19 +1,33 @@
 ---
-name: Xiaoyan Luo
+name: <center><h4>Xiaoyan Luo</h4></center>
 position: pi
-avatar: konrad_profile_3.jpg
+avatar: lxy.jpg
 twitter:
 ---
+<style>
+    .center {
+        text-align: center;
+    }
+    .center img {
+        display: block;
+        margin: 0 auto;
+    }
+</style>
 
-<img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">
+<div class="center">
+    <img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">
+    <br>
+     Associate Professor, Beihang University <br>
+     Supervisor of Doctorate Candidates. <br>
+    <i class="fa fa-envelope-o"></i> luoxy@buaa.edu.cn
+</div>
 
-- _Associate Professor, Beihang University_<br>
-- _Supervisor of Doctorate Candidates._
 
-<i class="fa fa-envelope-o"></i> `luoxy@buaa.edu.cn`
+<br>
+<hr>
+<center><h3>Bio</h3></center>
 
-### Bio
-[Xiaoyan Luo](https://shi.buaa.edu.cn/luoxiaoyan/en/index/186666/list/index.htm) 
+[Xiaoyan Luo](https://shi.buaa.edu.cn/luoxiaoyan/en/index/186666/list/index.htm) ,
 2004年7月毕业于太原理工大学电子工程学院，获通信工程学士学位；2007年4月毕业于北京航空航天大学电子信息工程学院通信与信息系统专业，获工学硕士学位；2007年5月至2018年5月在创新科技（北京）有限公司担任软件工程师，2012年1月毕业于北京航空航天大学电子信息工程学院交通信息工程及控制专业，获工学博士学位。2012年2月至今在北京航空航天大学宇航学院航天信息工程系从事科研、教学工作。2012年被授予北京航空航天大学“蓝天新秀”称号；2013年获得北航优秀博士论文；2019年获得北航青年拔尖人才支持计划。2014年11月至2015年11月在美国纽约大学做博士后研究工作从事高光谱图像处理相关研究。
 
 **Education and Experience**<br>

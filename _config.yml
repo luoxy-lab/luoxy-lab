@@ -3,17 +3,14 @@
 # # # # # # # #
 
 # Basic
-name:               "多模信息感知与视觉导航实验室"
+name:               <strong>多模信息感知与视觉导航实验室</strong>
 title:              "Multimodal Information Perception and Visual Navigation Lab at the Beihang University"
-description:        "The Kording Lab is a computational neuroscience and causality research group at the University of Pennsylvania."
-#新建主题
-theme: minima
-
+description:        "The Luoxiaoyan Lab is a computer vision research group at Beihang University."
 
 # URL
-url:                http://kordinglab.com
+url:                https://luoxy-lab.github.io/
 baseurl:            
-#baseurl:            "" #For Root Domain
+#baseurl:            "" #For Root Domain  根目录
 permalink:          /:year/:month/:day/:title.html
 
 # Markdown
@@ -24,19 +21,19 @@ highlighter:        rouge
 
 # Navigation
 nav:
-  - name:           "home"
+  - name:            <strong>home </strong>    #生成网页大纲以及对应的文件位置
     href:           "/"
-  - name:           "about"
+  - name:            <strong>about</strong>
     href:           "/about"
-  - name:           "publications"
+  - name:            <strong>publications</strong>
     href:           "/publication"
-  - name:           "people"
+  - name:            <strong>people</strong>
     href:           "/people"
-  - name:           "pictures"
+  - name:            <strong>pictures</strong>
     href:           "/pictures"
 #   - name:           "abstracts"
 #     href:           "/abstracts"
-  - name:           "lab teachings"
+  - name:            <strong>lab teachings</strong>
     href:           "/presentations"
 
 # Sass
@@ -48,7 +45,7 @@ defaults:
   -
     scope:
       path:         ""
-      type:         "pages"
+      type:         "pages"  #布局类型
     values:
       layout:       "page"
   -
@@ -62,7 +59,7 @@ defaults:
       path:         ""
       type:         "people"
     values:
-      layout:       "profile"
+      layout:       "profile" #啥也不是
 
 
 collections:

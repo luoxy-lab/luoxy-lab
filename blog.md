@@ -34,3 +34,4 @@ permalink: /blog/
     {% endif %}
   {% endfor %}
 </div>
+

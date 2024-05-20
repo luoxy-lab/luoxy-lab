@@ -1,7 +1,7 @@
 ---
 name: Zhang Huijie  
 position: gradstudent
-avatar: xyb.jpg  
+avatar: zhj.jpg  
 joined: 2024  
 title: Zhang Huijie
 ---
